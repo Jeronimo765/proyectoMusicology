@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: #2C2C2C;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-musicology {
+    margin-left: 100px;
+}
+
+.img-lupa {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.seccion-principal {
+    background-image: url(../assets/images/background.png);
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    padding: 100px 190px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.titulo-principal {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    line-height: 1.5;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.titulo-principal h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+
+button {
+    background-color: #FF6309;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.seccion-dance {
+    background-color: #ff6600;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.imagenes-juntas {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.titulo-dance h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.titulo-dance p {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    line-height: 1.5;
+    color: #f3f3f3;
+}
+
+
+.imagen1 {
+    background-color: #2c2c2c;
+    max-width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.imagen2 {
+    background-color: #2c2c2c;
+    max-width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.imagen3 {
+    background-color: #2c2c2c;
+    max-width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.imagen1 img {
+    width: 100%;
+}
+
+.imagen2 img {
+    width: 100%;
+}
+
+.imagen3 img {
+    width: 100%;
+}
+
+.imagen1 p {
+    color: #ccc;
+    padding: 0 15px 20px;
+}
+
+.imagen2 p {
+    color: #ccc;
+    padding: 0 15px 20px;
+}
+
+.imagen3 p {
+    color: #ccc;
+    padding: 0 15px 20px;
+}
+
+.seccion-pricing {
+    background-color: #2C2C2C;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.tarjetas-juntas2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.titulo-pricing h2 {
+    font-size: 40px;
+}
+
+.titulo-pricing p {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    line-height: 1.5;
+    color: #f3f3f3;
+}
+
+.tarjetas-juntas2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.tarjeta1 {
+    background-color: #FF6309;
+    border-radius: 10px;
+    max-width: 250px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.tarjeta1 button {
+
+    background-color: #2C2C2C;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    width: 220px;
+
+}
+
+.tarjeta2 {
+    background-color: #FF6309;
+    border-radius: 10px;
+    max-width: 250px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.tarjeta2 button {
+    background-color: #2C2C2C;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    width: 220px;
+}
+
+.tarjeta3 {
+    background-color: #FF6309;
+    border-radius: 10px;
+    max-width: 250px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.tarjeta3 button {
+    background-color: #2C2C2C;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    width: 220px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #FF6309;
+    color: #FFFFFF;
+}
