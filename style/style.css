@@ -315,49 +315,79 @@ footer {
 
 
 @media (max-width: 768px) {
-    .seccion-principal{
+    .seccion-principal {
         padding: 0;
     }
 
-    .titulo-principal{
+    .titulo-principal {
         width: 100%;
         margin-left: 350px;
 
     }
 
-    .titulo-principal h1{
+    .titulo-principal h1 {
         font-size: 32px;
         margin-left: 220px;
     }
 
-    .titulo-principal p{
+    .titulo-principal p {
         font-size: 13px;
         margin-left: 220px;
     }
 
-    .boton-naranja{
+    .boton-naranja {
         padding: 5px 20px;
         margin-left: 200px;
     }
 
     button {
-         margin-bottom: 70px;
+        margin-bottom: 70px;
     }
 
-    .titulo-dance h2{
+    .titulo-dance h2 {
         font-size: 28px;
     }
 
-    .titulo-dance p{
+    .titulo-dance p {
         font-size: 15px;
     }
 
-    .titulo-pricing h2{
+    .titulo-pricing h2 {
         font-size: 28px;
     }
 
     .titulo-pricing p {
         font-size: 15px;
     }
+
+    .tarjeta1 {
+        background-color: #FF6309;
+        border-radius: 10px;
+        max-width: 250px;
+        text-align: center;
+        color: #fff;
+        padding: 20px 5px 0;
+    }
+
+    .tarjeta2 {
+        background-color: #FF6309;
+        border-radius: 10px;
+        max-width: 250px;
+        text-align: center;
+        color: #fff;
+        padding: 20px 5px 0;
+    }
+
+    .tarjeta3{
+        background-color: #FF6309;
+        border-radius: 10px;
+        max-width: 250px;
+        text-align: center;
+        color: #fff;
+        padding: 20px 5px 0;
+    }
+}
+
+@media (max-width: 480px){
     
 }
