@@ -46,6 +46,15 @@ nav {
     margin-top: 100px;
 }
 
+.titulo-principal h1 {
+    margin-bottom: 5px;
+}
+
+.titulo-principal p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 
 button {
     background-color: #FF6309;
@@ -229,4 +238,24 @@ footer {
     padding: 15px;
     background-color: #FF6309;
     color: #FFFFFF;
+}
+
+@media (max-width: 1279px) {
+    .seccion-principal {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .titulo-principal {
+        margin-right: 150px;
+    }
+
+    .titulo-principal h1 {
+        font-size: 55px;
+    }
+
+    .titulo-principal p {
+        font-size: 14px;
+    }
 }
