@@ -262,14 +262,102 @@ footer {
     }
 }
 
-@media (max-width: 920px){
-    .seccion-principal{
+@media (max-width: 920px) {
+    .seccion-principal {
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
 
-    .titulo-principal{
+    .titulo-principal {
         margin-right: 170px;
     }
+}
+
+
+@media (max-width: 768px) {
+    nav .logo-musicology img {
+        width: 90px;
+        margin-left: 20px;
+    }
+
+
+    .logo-musicology {
+        margin-left: 0;
+    }
+
+    .img-lupa {
+        margin-right: 0;
+    }
+
+    .img-lupa img {
+        margin-right: 20px;
+
+    }
+
+    .seccion-principal p {
+        width: 300px;
+    }
+
+    .titulo-principal h1 {
+        font-size: 50px;
+    }
+
+    .titulo-principal p {
+        font-size: 13px;
+    }
+
+    button {
+        padding: 5px 30px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .seccion-principal{
+        padding: 0;
+    }
+
+    .titulo-principal{
+        width: 100%;
+        margin-left: 350px;
+
+    }
+
+    .titulo-principal h1{
+        font-size: 32px;
+        margin-left: 220px;
+    }
+
+    .titulo-principal p{
+        font-size: 13px;
+        margin-left: 220px;
+    }
+
+    .boton-naranja{
+        padding: 5px 20px;
+        margin-left: 200px;
+    }
+
+    button {
+         margin-bottom: 70px;
+    }
+
+    .titulo-dance h2{
+        font-size: 28px;
+    }
+
+    .titulo-dance p{
+        font-size: 15px;
+    }
+
+    .titulo-pricing h2{
+        font-size: 28px;
+    }
+
+    .titulo-pricing p {
+        font-size: 15px;
+    }
+    
 }
