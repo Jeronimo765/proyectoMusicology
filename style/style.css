@@ -389,6 +389,14 @@ footer {
 }
 
 @media (max-width: 480px) {
+    nav .logo-musicology img {
+        width: 80px;
+    }
+
+    .img-lupa img {
+        width: 30px;
+    }
+
     .seccion-principal {
         height: auto;
         padding: 0;
@@ -396,39 +404,139 @@ footer {
 
     .titulo-principal {
         width: 100%;
-        margin: 0 ;
+        margin: 0;
         display: flex;
         flex-direction: column;
-   
+        padding: 0 15px;
+
     }
 
     .titulo-principal h1 {
-        font-size: 24px;
-        margin: 6px 0 ;
-        margin-left: 20px;
-        line-height: 1.1 ;
+        font-size: 26px;
+        margin: 6px 0;
+        line-height: 1.1;
     }
 
     .titulo-principal p {
-        font-size: 13px ;
-        margin: 6px auto 12px ;
-        max-width: 90% ;
-        width: 250px;
-        margin-right: 80px;
+        font-size: 10px;
+        margin: 6px 0 12px;
+        max-width: 100%;
+        width: 200px;
     }
 
-
-    .boton-naranja button{
-        margin: 0 ;
-        padding: 5px 10px ;
-        font-size: 10px ;
-        margin-left: 0px;
+    .boton-naranja {
+        margin-left: 0;
+        padding: 10px 5px;
     }
 
- 
-    .seccion-dance,
-    .seccion-pricing {
-        padding-top: 20px;
-        padding-bottom: 20px ;
+    button {
+        margin: 0;
+        padding: 5px 10px;
+        font-size: 10px;
     }
+
+    .titulo-dance h2 {
+        font-size: 22px;
+    }
+
+    .titulo-dance p {
+        font-size: 12px;
+    }
+
+    .imagen1 {
+        max-width: 250px;
+    }
+
+    .imagen1 h3 {
+        font-size: 18px;
+    }
+
+    .imagen1 p {
+        font-size: 14px;
+    }
+
+    .imagen2 {
+        max-width: 250px;
+    }
+
+    .imagen2 h3 {
+        font-size: 18px;
+    }
+
+    .imagen2 p {
+        font-size: 14px;
+    }
+
+    .imagen3 {
+        max-width: 250px;
+    }
+
+    .imagen3 h3 {
+        font-size: 18px;
+    }
+
+    .imagen3 p {
+        font-size: 14px;
+    }
+
+    .titulo-pricing h2 {
+        font-size: 22px;
+    }
+
+    .titulo-pricing p {
+        font-size: 12px;
+    }
+
+    .tarjeta1 {
+        max-width: 220px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .tarjeta1 h3 {
+        font-size: 16px;
+    }
+
+    .tarjeta1 button {
+        padding: 15px 20px;
+        font-size: 14px;
+        width: 190px;
+    }
+
+    .tarjeta2 {
+        max-width: 220px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .tarjeta2 h3 {
+        font-size: 16px;
+    }
+
+    .tarjeta2 button {
+        padding: 15px 20px;
+        font-size: 14px;
+        width: 190px;
+    }
+
+    .tarjeta3 {
+        max-width: 220px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .tarjeta3 h3 {
+        font-size: 16px;
+    }
+
+    .tarjeta3 button {
+        padding: 15px 20px;
+        font-size: 14px;
+        width: 190px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
 }
